@@ -1,0 +1,333 @@
+/*===== home page =========*/
+
+.home
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+img
+{
+  width: 350px;
+  height: 300px;
+  border-radius: 6px;
+}
+.center
+{
+  text-align: center;
+}
+.search
+{
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
+}
+.search input
+{
+  width: 50%;
+  height: 30px;
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 18px;
+  padding:6px 12px;
+}
+.search input:focus
+{
+  border: 1px solid #363885;
+}
+.search button
+{
+  height: 30px;
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 18px;
+  padding:4px 10px;
+  margin-left: 2px;
+  background: none;
+}
+.search button:hover
+{
+  background: grey;
+  color: #fff;
+  cursor: pointer;
+}
+.container
+{
+  margin: 10px;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 2px 1px 4px gray;
+}
+.container h1
+{
+  text-align: center;
+  margin: 14px auto;
+  color: #363885;
+}
+.info
+{
+  max-width: 350px;
+  padding: 4px 6px;
+  margin: 15px auto;
+  text-align: center;
+}
+.info h2
+{
+  color: goldenrod;
+}
+.info mark
+{
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 30px;
+  margin: auto 3px;
+}
+.info p
+{
+  margin: 8px auto;
+  font-size: 21px;
+}
+.info p.left
+{
+  text-align: left;
+  font-size: initial;
+  text-align: justify;
+  margin: auto 12px;
+}
+.info p.left span
+{
+  font-weight: bold;
+}
+.add-to-cart
+{
+  font-size: 18px;
+  padding: 5px 12px;
+  margin-top:12px ;
+  border: none;
+  background: #363885;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.add-to-cart:hover
+{
+  opacity: .8;
+}
+
+/*===== cart page =========*/
+
+.cart
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.cart h1
+{
+  margin: 20px auto;
+}
+.checkout p
+{
+  margin: 15px auto;
+}
+.checkout button
+{
+  padding: 5px 14px;
+  margin-right: 10px;
+  min-width: 90px;
+  border: none;
+  background: none;
+  border: 1px solid #363885;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.checkout button:hover
+{
+  background-color:#363885;
+  color: #fff;
+}
+.checkout p mark
+{
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+/*===== cart item page =========*/
+
+.cart-item
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px;
+}
+.cart-item img
+{
+  max-width: 60px;
+  max-height: 80px;
+}
+.count button
+{
+  padding: 0px 12px;
+}
+.count input
+{
+  max-width: 40px;
+}
+
+/*===== login page ========*/
+.login-container
+{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 12px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 2px #363885;
+}
+.login-container form
+{
+  width: 100%;
+  margin: 8px auto;
+  padding: 15px;
+}
+.login-container input
+{
+  width: 100%;
+  margin: 8px auto;
+  padding: 4px 6px;
+  border: none;
+  outline: none;
+  border: 1px solid #363885;
+  border-radius: 4px;
+  color: #363885;
+}
+.login-container input::placeholder
+{
+  color: #363885;
+  opacity: .5;
+}
+.login-container input[type="submit"]
+{
+  max-width: 80px;
+  background: transparent;
+  float: right;
+  cursor: pointer;
+}
+.login-container input[type="submit"]:hover
+{
+  background-color:#363885;
+  color: #fff;
+}
+.register
+{
+  margin-top: -12px;
+}
+.register p
+{
+  font-size: small;
+  margin: 4px auto;
+}
+.register p a
+{
+  font-size: medium;
+  color: #363885;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0 3px;
+}
+.login-container .loginerr
+{
+  margin: -14px auto 20px auto;
+  color: brown;
+}
+.login-container .errmsg
+{
+  margin: 2px auto 10px auto;
+  color: brown;
+}
+
+/*===== profile page ========*/
+.profile
+{
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px 12px 4px 12px;
+  border-radius: 4px;
+  box-shadow: 0 0 3px;
+}
+.profile p
+{
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.profile p svg
+{
+  margin-right: 8px;
+  font-size: 18px;
+  color: #363885;
+}
+.profile .createAccount
+{
+  color:brown;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.profile .createAccount a
+{
+  text-decoration: underline;
+}
+.profile-heading
+{
+  text-align: center;
+  margin-top: 30px;
+}
+.profile-heading h1
+{
+  font-weight: 700;
+}
+
+
+
+/*===== media queries ========*/
+
+@media (max-width:570px) {
+  img
+  {
+    max-width: 150px;
+    max-height: 100px;
+  }
+  .cart h1
+  {
+    font-size: 24px;
+  }
+  .cart-item
+  {
+    padding: 12px;
+  }
+  .login-container
+  {
+    max-width: 300px;
+  }
+  .profile
+  {
+    max-width: 300px;
+  }
+  .profile p
+  {
+    font-size: initial;
+  }
+}

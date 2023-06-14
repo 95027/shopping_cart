@@ -1,0 +1,57 @@
+/*===== navbar =========*/
+
+.navbar-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#363885;
+    padding: 12px 8px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar-container svg
+{
+    font-size: 32px;
+    margin-right: 15px;
+}
+.navbar-container a:hover
+{
+    transform: scale(1.06);
+    color: #ebfa4b;
+}
+a,a:hover
+{
+    text-decoration: none;
+}
+.navbar-container a
+{
+    color:#fff;
+}
+
+/*===== footer =========*/
+
+.footer
+{
+    background-color:#363885;
+    padding: 12px 8px;
+}
+.footer p
+{
+    text-align: center;
+    color: #fff;
+}
+
+/*===== media queries =========*/
+
+@media (max-width:650px) {
+    .navbar-container svg
+    {
+        font-size: 24px;
+    }
+    .navbar-container h2
+    {
+        font-size: 18px;
+    }
+}
